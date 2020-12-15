@@ -1,4 +1,4 @@
-# Scrapy settings for scraper_bddatabase project
+# Scrapy settings for bdo_scraper project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'scraper_bddatabase'
+BOT_NAME = 'bdo_scraper'
 
-SPIDER_MODULES = ['scraper_bddatabase.spiders']
-NEWSPIDER_MODULE = 'scraper_bddatabase.spiders'
+SPIDER_MODULES = ['bdo_scraper.spiders']
+NEWSPIDER_MODULE = 'bdo_scraper.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'scraper_bddatabase (+http://www.yourdomain.com)'
+#USER_AGENT = 'bdo_scraper (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = False
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'scraper_bddatabase.middlewares.ScraperBddatabaseSpiderMiddleware': 543,
+#    'bdo_scraper.middlewares.ScraperBddatabaseSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'scraper_bddatabase.middlewares.ScraperBddatabaseDownloaderMiddleware': 543,
+#    'bdo_scraper.middlewares.ScraperBddatabaseDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = False
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'scraper_bddatabase.pipelines.ScraperBddatabasePipeline': 300,
+#    'bdo_scraper.pipelines.ScraperBddatabasePipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
